@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="title"
+        android:id="@+id/t1"
+        android:icon="@drawable/cast"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="title"
+        android:id="@+id/t2"
+        android:icon="@drawable/notification"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item android:title="title"
+        android:id="@+id/t3"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+
+
+
+
+</menu>

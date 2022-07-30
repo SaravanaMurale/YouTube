@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.valor.youtube.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/layout_fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_short"
+        android:name="com.valor.youtube.ui.ShortsFragment"
+        android:label="fragment_locate"
+        tools:layout="@layout/layout_fragment_shorts" />
+
+    <fragment
+        android:id="@+id/navigation_fab"
+        android:name="com.valor.youtube.ui.FABFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/layout_fragment_fab" />
+
+
+    <fragment
+        android:id="@+id/navigation_sub"
+        android:name="com.valor.youtube.ui.SubscriptionFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/layout_fragment_subscription" />
+
+    <fragment
+        android:id="@+id/navigation_lib"
+        android:name="com.valor.youtube.ui.LibraryFragment"
+        android:label="fragment_teams"
+        tools:layout="@layout/layout_fragment_library" />
+
+
+</navigation>
